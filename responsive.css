@@ -1,0 +1,62 @@
+@media(max-width:925px){
+    .store{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* margin-left: 300px; */
+  
+    }
+}
+
+@media (max-width:600px){
+    .head{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .header{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .store{
+        align-items: center;
+    }
+    .roof{
+        text-align: left;
+        margin-top: 50px;
+        background-image:url(pexel.jpg) ;
+        background-position: center;
+        height: 700px;   
+    }
+    .sandeep{
+        margin-top: 50px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color:green ;
+        color: aliceblue;
+    }
+    .company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+}
+
+@media (max-width:470px){
+    .header .list ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+        }
+}
